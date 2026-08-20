@@ -1,0 +1,9 @@
+@PrimeraWebApi_HostAddress = http://localhost:5255
+
+GET {{PrimeraWebApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+
+GET {{PrimeraWebApi_HostAddress}}/api/Math/cuadrado/5
+Accept: application/json
